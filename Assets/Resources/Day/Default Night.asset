@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d595ab7b0a1be4321a15d92ca9169b0a, type: 3}
+  m_Name: Default Night
+  m_EditorClassIdentifier: 
+  dayName: Windy Day
+  weighting: 1
+  haveUniqueSkybox: 1
+  uniqueIdentifier: 2004
+  weatherAsset:
+  - {fileID: 11400000, guid: 6cc3cd05e99e2e54ba3ab775afa9acfd, type: 2}
+  - {fileID: 11400000, guid: c0891041d614401478ae0a8c2c88e77f, type: 2}
+  uniqueSkybox: {fileID: 8900000, guid: 6fee570b703c71e47836dc23268a6722, type: 3}
+  skyColour: {r: 1, g: 1, b: 1, a: 0}
+  skyLOD: 0
+  cloudTexture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+  cloudColour: {r: 1, g: 1, b: 1, a: 0}
+  cloudSpeed: 1.1
+  cloudScale: 0.9
+  cloudHeight: 1
+  fogScale: {x: 1, y: 0}
+  starColour: {r: 1, g: 0.9142747, b: 0, a: 0}
+  starSpeed: 0.5
+  starDensity: 50
+  starSize: 50

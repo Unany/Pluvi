@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d595ab7b0a1be4321a15d92ca9169b0a, type: 3}
+  m_Name: Snowy Day
+  m_EditorClassIdentifier: 
+  DayName: Snowy Day
+  Weighting: 1
+  WeatherAsset:
+  - {fileID: 11400000, guid: 613a9372f5f24d443ac71c3bd4fb2527, type: 2}
+  - {fileID: 11400000, guid: c0891041d614401478ae0a8c2c88e77f, type: 2}
+  HaveUniqueSkybox: 1
+  UniqueSkybox: {fileID: 8900000, guid: 72fda6d6ea281444d83bd70dce83a95e, type: 3}
+  SkyColour: {r: 1, g: 1, b: 1, a: 0}
+  SkyLOD: 0
+  CloudTexture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+  CloudColour: {r: 1, g: 1, b: 1, a: 0}
+  CloudSpeed: 0.6
+  CloudScale: 0.7
+  CloudHeight: 0.8
+  FogScale: {x: 1, y: 0}
+  StarColour: {r: 1, g: 0.913718, b: 0, a: 0}
+  StarSpeed: 0.5
+  StarDensity: 50
+  StarSize: 50

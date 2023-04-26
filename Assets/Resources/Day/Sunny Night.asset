@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d595ab7b0a1be4321a15d92ca9169b0a, type: 3}
+  m_Name: Sunny Night
+  m_EditorClassIdentifier: 
+  DayName: Sunny Day
+  Weighting: 1
+  WeatherAsset:
+  - {fileID: 11400000, guid: 212a0d70f5b762142a4752ff39bb39f7, type: 2}
+  - {fileID: 11400000, guid: c0891041d614401478ae0a8c2c88e77f, type: 2}
+  HaveUniqueSkybox: 1
+  UniqueSkybox: {fileID: 8900000, guid: fda5ff900003dd640b17d8eb669237c1, type: 3}
+  SkyColour: {r: 1, g: 1, b: 1, a: 0}
+  SkyLOD: 0
+  CloudTexture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+  CloudColour: {r: 1, g: 1, b: 1, a: 0}
+  CloudSpeed: 1
+  CloudScale: 0
+  CloudHeight: 1
+  FogScale: {x: 1, y: 0}
+  StarColour: {r: 1, g: 0.606495, b: 0.15566039, a: 0}
+  StarSpeed: 0.5
+  StarDensity: 50
+  StarSize: 50

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 103cc19e61836984aafa43f12cc0f09f, type: 3}
+  m_Name: Snowy
+  m_EditorClassIdentifier: 
+  WeatherName: Weather
+  WeatherDurationMin: 30000
+  WeatherDurationMax: 60000
+  WeatherLerpSpeed: 1
+  WeatherColourMultiplier: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 0}
+  WeatherPool:
+  - ObjectToPool: {fileID: 103702, guid: efd7d86bbe3a5314c9260efa62c04121, type: 3}
+    AmountToPool: 2
+    NextToCamera: 1
+    OffsetAmount: {x: 0, y: 3, z: 3}
+  CloudMultiplier: 1.2
